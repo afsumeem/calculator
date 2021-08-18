@@ -5,79 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
 
 </head>
 
 <body>
-    <!-- <header>
-        <h1>Welcome to my blog website</h1> 
-    </header> -->
-    <!-- <main>
-        <section id="blog" class="blog">
-            <header>
-                <h2>blog list</h2>
-                <ul id="list">
-                    <li>Blog-1</li>
-                    <li>Blog-2</li>
-                    <li>Blog-3</li>
-                    <li>Blog-4</li>
-                </ul>
-            </header>
-            <article class="my-blog">
-                <h3 id="first-title">My awesome blog-1</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur modi nam dolorum repellendus
-                    magnam vitae perspiciatis sed ad quasi repudiandae dolore, asperiores corrupti totam voluptas eius
-                    natus, quis nobis nostrum!</p>
-            </article>
-            <article class="my-blog">
-                <h3 id="second-title">My awesome blog-2</h3>
-                <p>orem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur modi nam dolorum repellendus
-                    magnam vitae
-                    perspiciatis sed ad quasi repudiandae dolore, asperiores corrupti totam voluptas eius natus, quis
-                    nobis nostrum!</p>
-            </article>
-            <article class="my-blog">
-                <h3>My awesome blog-3</h3>
-                <p>Lom ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur modi nam dolorum repellendus
-                    magnam vitae
-                    perspiciatis sed ad quasi repudiandae dolore, asperiores corrupti totam voluptas eius natus, quis
-                    nobis nostrum!</p>
-            </article>
-        </section>
+    <h1>A simple Calculator</h1>
+    <div id="container">
+        <div id="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value"></p>
+                </div>
+                <div id="output">
+                    <p id="output-value"></p>
+                </div>
+            </div>
+            <div id="keyboard">
+                <button class="operator" id="clear">C</button>
+                <button class="operator" id="backspace">CE</button>
+                <button class="operator" id="%">%</button>
+                <button class="operator" id="/">&#247;</button>
+                <button class="number" id="7">7</button>
+                <button class="number" id="6">8</button>
+                <button class="number" id="8">9</button>
+                <button class="operator" id="*">&times;</button>
+                <button class="number" id="4">4</button>
+                <button class="number" id="5">5</button>
+                <button class="number" id="6">6</button>
+                <button class="operator" id="-">-</button>
+                <button class="number" id="1">1</button>
+                <button class="number" id="2">2</button>
+                <button class="number" id="3">3</button>
+                <button class="operator" id="+">+</button>
+                <button class="empty" id="empty"></button>
+                <button class="number" id="0">0</button>
+                <button class="empty" id="empty"></button>
+                <button class="operator" id="=">=</button>
+            </div>
+        </div>
+
+    </div>
 
 
 
 
-    </main> -->
-
-    <!-- event handler -->
-
-    <!-- <h1 onclick="alert('valo hoye jao')">Event niye clickbaji</h1>
-    <button onclick="document.body.style.backgroundColor = 'yellow'">Click me</button>
-
-    <button onclick="makeRed()">Click me: red</button>
-
-    <button id="make-blue">Click me: blue</button>
-    <button id="makeGreen">Click me: green</button>
-    <button id="make-golden-rod">Click me: Golden Rod</button>
-    <button id="hotPink">Click me: Hot pink</button>
-    <button id="light-blue">Click me: Light Blue</button> -->
-
-
-
-    <p id="clicking-method"></p>
-
-    <input id="name-field" type="text">
-    <button id="update-name">Update</button>
-
-    <button onclick="handleJustFunctionClick()">Just function</button>
-
-    <button id="direct-handler">Direct add event</button>
-
-
-
-    <script src="practice.js"></script>
+    <script src="calculator.js"></script>
 </body>
 
 </html>
